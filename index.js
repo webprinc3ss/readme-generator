@@ -12,27 +12,27 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of the project'
+        message: 'Provide a description of the project:'
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Please give a description on how to install the application'
+        message: 'Please give a description on how to install the application:'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions or examples for use of the project'
+        message: 'Provide instructions or examples for use of the project:'
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'Please offer instructions on how to contribute to this project, if any.'
+        message: 'Please offer instructions on how to contribute to this project, if any:'
     },
     {
         type: 'input',
         name: 'test',
-        message: 'Please write or paste tests for your application'
+        message: 'Please write or paste tests for your application:'
     },
     {
         type: 'checkbox',
@@ -43,23 +43,22 @@ const questions = [
     {
         type: "input",
         name: "license Url",
-        message: "provide License url ",
+        message: "Provide License url: ",
     },
     {
         type: 'input',
         name: 'username',
-        message: 'please enter your github username'
+        message: 'Please enter your github username:'
     },
     {
         type: 'input',
         name: 'email',
-        message: 'please enter your email address'
+        message: 'Please enter your email address:'
     },
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-
     fs.writeFile(fileName, data, function (err) {
         if (err) {
             return console.log(err);
@@ -67,7 +66,6 @@ function writeToFile(fileName, data) {
         console.log("Success!");
     })
 }
-
 
 function init() {
     inquirer.prompt(questions)
