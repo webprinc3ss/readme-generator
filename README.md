@@ -24,6 +24,7 @@
   [Github Pages](https://webprinc3ss.github.io/readme-generator/)
 
   ![Demo](images/readme.gif)
+  [Link to Demo](https://drive.google.com/file/d/15D-8fZEefxHCMzDap2_NxAWQDkJDv9hD/view)
 
   ## Installation Instructions
   1. [Clone the repo](https://github.com/webprinc3ss/readme-generator.git)
