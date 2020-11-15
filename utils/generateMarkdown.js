@@ -1,7 +1,7 @@
 //Generate rest of Markdown
 function generateMarkdown(data) {
   return `
-  #${data.title}
+  # ${data.title}
 
   [![License](${encodeURI(`https://img.shields.io/badge/License-${data.license.text}-${data.license.color}`)})](${data.license.url})
   
