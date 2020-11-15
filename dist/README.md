@@ -1,7 +1,7 @@
 
-  #test
+  #test<br />test
 
-  [![License](https://img.shields.io/badge/License-GNU%20GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
   
   ## Table of Contents
   1. [Description](#description)
@@ -29,7 +29,7 @@
   test
     
   ## License
-  This license is covered by GNU GPLv3 license. 
+  This license is covered by MIT license. 
   
   ## Questions
   How to reach me:
