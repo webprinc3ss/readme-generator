@@ -1,39 +1,43 @@
-// function to generate markdown for README
+//Generate rest of Markdown
 function generateMarkdown(data) {
-  return `#${data.title}
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ${data.description}
-  ## Table of Contents
-  - [ Installation ](#Installation)
-  * [ Usage ](#Usage)
-  + [ Contributions ](#Contributions)
-  4. [ Tests ](#Tests)
-  5. [ Licenses ](#Licenses)
-  6. [ Username ](#Username)
-  7. [ Email ](#Email)
+  return `
+  #${data.title}
 
-  <a name="Installation"></a>
-  ## Installation
+  [![License](${encodeURI(`https://img.shields.io/badge/License-${data.license.text}-${data.license.color}`)})](${data.license.url})
+  
+  ## Table of Contents
+  1. [Description](#description)
+  2. [Installation Instructions](#installation-instructions)
+  3. [Usage Information](#usage-information)
+  4. [Contribution Guidelines](#contribution-guidelines)
+  5. [Tests](#tests)
+  6. [License](#license)
+  7. [Questions](#questions)
+ 
+  
+  ## Description
+  ${data.description}
+
+  ## Installation Instructions
   ${data.installation}
-  <a name="Usage"></a>
-  ## Usage
+    
+  ## Usage Information
   ${data.usage}
-  <a name="Contributions"></a>
-  ## Contributions
+    
+  ## Contribution Guidelines
   ${data.contributing}
-  <a name="Tests"></a>
+    
   ## Tests
-  ${data.testing}
-  <a name="Licenses"></a>
-  ## Licenses 
-  This license is covered by the ${data.licenses} license. 
-  <a name="Username"></a>
-  ## Username
+  ${data.test}
+    
+  ## License
+  This license is covered by ${data.license.text} license. 
+  
+  ## Questions
+  How to reach me:
   ${data.username}
-  <a name="Email"></a>
-  ## Email 
   ${data.email}
-`;
+      `;
 }
 
 module.exports = generateMarkdown;
