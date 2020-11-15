@@ -1,5 +1,5 @@
 
-  #test<br />test
+  #test
 
   [![License](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
   
@@ -33,6 +33,8 @@
   
   ## Questions
   How to reach me:
-  test
-  test
+  
+  On Github: https://github.com/webprinc3ss
+
+  Email: djabnraton@gmail.com
       

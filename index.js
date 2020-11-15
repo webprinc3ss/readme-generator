@@ -138,19 +138,6 @@ const questions = [
         ]
     },
     {
-        type: "input",
-        name: "license Url",
-        message: "Provide License url: (Required!) ",
-        validate: nameInput => {
-            if (nameInput) {
-                return true;
-            } else {
-                console.log('License url!');
-                return false;
-            }
-        },
-    },
-    {
         type: 'input',
         name: 'username',
         message: 'Please enter your github username: (Required!)',
