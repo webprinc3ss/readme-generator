@@ -21,6 +21,10 @@
 
   Inquirer is used to prompt questions for the user which is then written, using the fs.write module, to a template which prints out the README file.
 
+  [Github Pages](https://webprinc3ss.github.io/readme-generator/)
+
+  ![Demo](images/readme.gif)
+
   ## Installation Instructions
   1. [Clone the repo](https://github.com/webprinc3ss/readme-generator.git)
 
